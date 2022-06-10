@@ -36,7 +36,14 @@
 	<a href="https://forms.gle/cdhkRNsp6RLND2uZ9" target="_blank"> Admission Form </a>
 	<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24"> 
 	<path d="M5 12h14M12 5l7 7-7 7">
-</path> </svg> </button> </div> </div></header> </p>
+</path> </svg> </button> </div> </div>
+
+<form align="center">
+<input type="radio" id="b" name="en" onclick="window.location.href='./about'" checked> <b id="b"> English 
+<input type="radio" id="b" name="en" onclick="window.location.href='./mr/about'"><b id="b"> मराठी</b>
+
+
+</header> </p>
 
 <!--main content--><br>
 <main>
@@ -57,7 +64,7 @@ was established in 1998.<br> Continuously serving <u><i>best class education</i>
 <p class="text-sm text-blue-600 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-orange-500 sm:py-2 sm:mt-0 mt-4"><b>© 2022</b>
 <a href="https://acharya-technologies.github.io" class="text-orange-500 ml-1" rel="noopener noreferrer" target="_blank"><br>@acharya-technologies</a> </p> 
 <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start"> 
-<a href="fb" target="_blank" class="text-blue-500"> 
+<a href="https://tinyurl.com/ycknezwm" target="_blank" class="text-blue-500"> 
 <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24"> 
 <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path> </svg> </a>
 <a href="https://instagram.com/omkar.kulkarni.25?igshid=YmMyMTA2M2Y=" target="_blank" class="ml-3 text-pink-400"> 
@@ -70,6 +77,5 @@ was established in 1998.<br> Continuously serving <u><i>best class education</i>
 <a href="https://wa.me/918208607477?text=Namaste" target="_blank" class="text-green-500 fa fa-whatsapp" style="font-size:20px;"> </a>
 <a class="ml-3 text-gray-500"> <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
 </svg> </a> </span> </div> </footer>
-
 </body>
 </html>

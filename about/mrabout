@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title> KVS | Contact Us</title>
+    <title> KVS | About Us</title>
     <link rel="stylesheet" href="./style.css"">
     <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -23,10 +23,10 @@
 	<div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
 <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto"> <p align="center">
 	<a href="./index.html"  style="hover: red;" class="navigation"><i><b>  &#160 Home  &#160</b></i></a> 
-	<a href="about"  class="navigation"> <b><i> &#160 About  &#160</i></b></a> 
+	<a id="selected" href="about"  class="navigation"> <b><i> &#160 About  &#160</i></b></a> 
 	<a  class="navigation" href="student"> <b><i>&#160 Student's Corner&#160</b></i></a> <br>
 	<p align="center">
-	<a class="hover:text-white" href="contact" id="selected"><b><i>&#160Contact Us &#160</i></b></p></a>
+	<span>&#160</span><a class="navigation" href="contact"><b><i>&#160Contact Us &#160</i></b></p></a> 
 </nav>
 	<a class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-white lg:items-center lg:justify-center mb-4 md:mb-0">
 	<path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5">
@@ -39,40 +39,28 @@
 </path> </svg> </button> </div> </div>
 
 <form align="center">
-<input type="radio" id="b" name="en" onclick="window.location.href='./contact'" checked> <b id="b"> English</b>
-<input type="radio" id="b" name="en" onclick="window.location.href='./mr/contact'"><b id="b"> मराठी</b></form>
+<input type="radio" id="b" name="en" onclick="window.location.href='../about'" > <b id="b"> English</b>
+<input type="radio" id="b" name="en" onclick="window.location.href='../mr/about'" checked><b id="b"> मराठी</b></form>
 
 </header> </p>
 
-<!--main content--><br><h6 style="color:black;text-align:center; color:red;font-size:10px;"> {click to get there}</h5><br>
+<!--main content--><br>
 <main>
-<section id="sections"> <p class="shead" style="color:darkblue">Address</p>
-<p class="scontent"> <a href="https://maps.app.goo.gl/P5ahyCNPohLRwdJ9A" class="fa fa-map-marker" style="color:blue;font-size: 30px;"> - 
-<span style="color:royalblue;font-size:15px; "><b><i>Near NH4 Highway, Shiroli,Kolhapur</i></b></span></a></p>
-</section><br>
+<section id="sections">
+<p class="shead"><b>शाळेबद्दल</u> काही...</b></p>
+<p class="scontent"><br>
+<span style="font-size:2.5vh;color:tomato;font-family:'Yatra One'"><b>संस्कार भारती एज्युकेशनल फाँडेशन</b></span> संचलित,<br>
+<span style="color:navy;font-family:'Amita';font-size:2.3vh">कौतुक विद्यालय, शिरोली (पु.) </span><br>एक खाजगी शाळा आहे.
+ शाळेची स्थापना 1998 मध्ये झाली.<br>
+ 24 वर्षांपासून सतत सर्वोत्तम दर्जाचे शिक्षण देत आहे. <br>केवळ शिक्षणच नाही तर आम्ही  विद्यार्थ्यांचे व्यक्तिमत्वही विकसित करतो...
+<br> गेल्या दशकभरात अनेक असामान्य विद्यार्थी उत्तीर्ण झाले.
+<br> एकूणच, विद्यार्थ्यांच्या जीवनात या शाळेचे योगदान महत्त्वपूर्ण आहे.<br>
+</p>
 
-<section id="sections"> <p class="shead" style="color:palegreen">Phone</p>
-<p class="scontent"> <a href="tel:0230-2461633" class="fa fa-phone" style="color:green;font-size: 30px;"> - 
-<span style="color:yellowgreen;font-size:15px;"><b><i>0230-2461633</i></b></span>
-<span style="color:maroon;font-family:'Yatra One',cursive;font-size:20px;"> [Office]</span></a></p>
-<p class="scontent"> <a href="tel:7757009892" class="fa fa-phone" style="color:green;font-size: 30px;"> -
-<span style="color:yellowgreen;font-size:15px;"><b><i>7757009892</i></b></span>
-<span style="color:maroon;font-family:'Yatra One',cursive;font-size:20px;"> [Lambe Madam]</span></a></p>
-<p class="scontent"> <a href="tel:8275450186" class="fa fa-phone" style="color:green;font-size: 30px;"> -
-<span style="color:yellowgreen;font-size:15px;"><b><i>8275450186</i></b></span>
-<span style="color:maroon;font-family:'Yatra One',cursive;font-size:20px;"> [Mulla Sir]</span></a></p>
-<p class="scontent"> <a href="tel:9503022543" class="fa fa-phone" style="color:green;font-size: 30px;"> -
-<span style="color:yellowgreen;font-size:15px;"><b><i>9503022543</i></b></span>
-<span style="color:maroon;font-family:'Yatra One',cursive;font-size:20px;"> [Khade Madam]</span></a></p>
-</section><br>
 
-<section id="sections"> <p class="shead" style="color:firebrick">Email</p>
-<p class="scontent"> <a href="mailto:koutuk.vidyalay@gmail.com" class="fa fa-map-marker" style="color:orange;font-size: 30px;"> -
-<span style="color:tomato;font-size:18px; "><b><i>koutuk.vidyalay@gmail.com</i></b></span></a></p>
-</section><br>
+</p>
+</section>
 </main>
-
-
 <!--footer --><br>
 <footer class="text-gray-600 body-font" style="background-color:peachpuff">
 <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
@@ -96,4 +84,5 @@
 </svg> </a> </span> </div> </footer>
 
 </body>
+<style>#b{color:black}</style>
 </html>

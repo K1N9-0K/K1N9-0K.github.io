@@ -39,8 +39,8 @@
 </path> </svg> </button> </div> </div>
 
 <form align="center">
-<input type="radio" id="b" name="en" onclick="window.location.href='./contact'" checked> <b id="b"> English</b>
-<input type="radio" id="b" name="en" onclick="window.location.href='./mr/contact'"><b id="b"> मराठी</b></form>
+<input type="radio" id="b" name="en" onclick="window.location.href='../contact'" > <b id="b"> English</b>
+<input type="radio" id="b" name="en" onclick="window.location.href='../mr/contact'" checked><b id="b"> मराठी</b></form>
 
 </header> </p>
 
@@ -96,4 +96,5 @@
 </svg> </a> </span> </div> </footer>
 
 </body>
+<style>#b{color:black}</style>
 </html>

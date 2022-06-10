@@ -36,21 +36,21 @@
     <script src="index.js"></script>
 
 <!--header-->
-<p align="center" style="width:94%;margin-left:3%;color: tomato; background-image:linear-gradient(45deg,crimson,wheat,wheat,crimson); font-size:2.5vh; font-family:'Amita',monospace"> || श्री || </p>
+<p align="center" style="width:94%;margin-left:3%;color: tomato; background-image:linear-gradient(45deg,crimson,wheat,wheat,crimson); font-size:2.5vh; font-family:'Amita',monospace;z-index:100"> || श्री || </p>
 
 
 <header class="text-gray-400 body-font">
 
 <span class="ml-3 text-xl xl:block lg:hidden">
-<p align="center" style="position: relative;color:navy; font-family: 'Yatra One', cursive; font-size:5.2vh;text-shadow:.2vh .2vh .5vh sandybrown;"> कौतुक विद्यालय,शिरोली</a></p><hr width="80%" style="margin-left:10%; height: 2px;background-image: linear-gradient(90deg,red,tomato,yellow,lime,aqua,indigo,violet)"></span>
+<p align="center" style="color:navy; font-family: 'Yatra One', cursive; font-size:5.2vh;text-shadow:.2vh .2vh .5vh sandybrown;"> कौतुक विद्यालय,शिरोली</a></p><hr width="80%" style="margin-left:10%; height: 2px;background-image: linear-gradient(90deg,red,tomato,yellow,lime,aqua,indigo,violet)"></span>
 
 <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
 <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto"> <p align="center">
-<a href="./index.html" id="selected" style="hover: red;" class="navigation"><i><b>  &#160 Home  &#160</b></i></a> 
-<a href="about"  class="navigation"> <b><i> &#160 About  &#160</i></b></a> 
-<a  class="navigation" href="student"> <b><i>&#160 Student's Corner&#160</b></i></a> 
+<a href="en/index.html" id="selected" style="hover: red;" class="navigation"><i><b>  &#160 Home  &#160</b></i></a> 
+<a href="en/about"  class="navigation"> <b><i> &#160 About  &#160</i></b></a> 
+<a  class="navigation" href="en/student"> <b><i>&#160 Student's Corner&#160</b></i></a> 
 <p align="center">
-<span>&#160</span><a class="navigation" href="contact"><b><i>&#160Contact Us &#160</i></b></p></a> </nav>
+<span>&#160</span><a class="navigation" href="en/contact"><b><i>&#160Contact Us &#160</i></b></p></a> </nav>
 <a class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-white lg:items-center lg:justify-center mb-4 md:mb-0"> 
 <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path> </svg> 
 
@@ -59,13 +59,24 @@
 <button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
 <br><a href="https://forms.gle/cdhkRNsp6RLND2uZ9" target="_blank"> Admission Form </a>
 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24"> 
-<path d="M5 12h14M12 5l7 7-7 7"></path> </svg> </button> </div> </div></header> </p>
+<path d="M5 12h14M12 5l7 7-7 7"></path> </svg> </button> </div> </div>
+
+<!--language switcher-->
+<form align="center">
+<input type="radio" id="b" name="en" onclick="window.location.href='en/index.html'" checked><b id="b"> English</b>
+<input type="radio" id="b" name="en" onclick="window.location.href='../mr/index.html'"><b id="b"> मराठी</b></form>
+
+</header> </p>
 <br>
 <!--scrolling bar -->
-<marquee scrollamount="10" style="background-color:white;left: 5%;position:relative;border:.1vh solid black" behaviour="scroll" direction="left" height="20vh" width="90%" onmouseover="this.stop();" onmouseout="this.start();">
-<span id="notice" class="scroll"> NOTICE </span> &#160| &#160
-<span id="adm" class="scroll"> project by "acharya-technologies"</span>
-</marquee>
+<marquee scrollamount="10" style="background-color:white;left: 5%;position:relative;border:.1vh solid black" behavior="alternate" direction="left" height="50vh" width="90%" onmouseover="this.stop();" onmouseout="this.start();">
+<span id="notice" class="scroll" align="center"> NOTICE </span> &#160| &#160
+<span id="adm" class="scroll">
+
+
+ project by "acharya-technologies" 
+
+</span></marquee>
 
 
 <!--main content-->
@@ -98,16 +109,16 @@
 
 <!--khade madam-->
 <p align="center" class="borders">
-<img  src="./img/logo.png" alt="Mrs. Tejaswini Jadhav" >
+<img  src="./img/Khade.jpg" alt="Mrs. Tejaswini Jadhav" >
 <span class="name"><b><u> Mrs.</u> &#160<u>Tejaswini</u> &#160<u>Jadhav</u></i></b></span><br>
 <span class="post"><u><i> Head</u> <u>of</u> <u>Primary</u> <u>Department</u></i></b></span><br>
-<span class="degree">B.A., B.Ed</span><br>
+<span class="degree">B.A., D.Ed</span><br>
 <span class="description">12 years of experince of teaching in <span style="color:var(--desc);font-family:'Hind';"><br>कौतुक.</span></span></p><br>
 
 <!--Shirole Madam-->
 <p align="center" class="borders">
 <img  src="./img/logo.png" alt="Shrimati Shirole Madam">
-<span class="name"><b><u> Shrimati</u> &#160<u>Sangita</u> &#160<u>Shirole</u></i></b></span><br>
+<span class="name"><b><u> Shrimati.</u> &#160<u>Sangita</u> &#160<u>Shirole</u></i></b></span><br>
 <span class="post"><u><i> Head</u> <u>of</u> <u>Pre</u>-<u>Primary</u> <u>Department</u></i></b></span><br>
 <span class="degree">B.A.</span><br>
 <span class="description">20 years of experince of teaching in <span style="color:var(--desc);font-family:'Hind';"><br>कौतुक.</span></span></p><br>
@@ -125,6 +136,7 @@
 <b><u class="no">4.</u></b> To guide students for better career for them.<br>
 <b><u class="no">5.</u></b> To prepare students for International Level. &#160<br>
 <b><u class="no">6.</u></b> To teach students the value of Freedom, Equality, Fraternity and Honesty.</p></section><br>
+
 <section id="sections"><p class="shead"> <u>Our</u> <u>Features</u> </p>
 <p class="scontent"> 
 <b><u class="no">1.</u></b> Semi-English from kinder-garden to 10th class.<br>
@@ -138,9 +150,23 @@
 <b><u class="no">9.</u></b> Encouraging,entrepreneurial and creative teachers.<br>
 <b><u class="no">10.</u></b> Quality alumni are today's successful citizens on their own <br>
 </p>
-</section></main>
+</section></main><br>
 
-<!--footer --><br>
+<section id="sections"><details><summary class="shead">Fee Structure</summary><ul>
+<p class="scontent">
+<li><p class="scontent" style="color:red;font-size: 30px;">1. <span style="color:yellowgreen;font-size:15px;"><b><i>Play Group</i></b></span>
+<span style="color:maroon;font-family:'Yatra One',cursive;font-size:20px;">- 4000/-</span></a></li></p>
+<li><p class="scontent" style="color:red;font-size: 30px;">2.                                                                                                                        <span style="color:yellowgreen;font-size:15px;"><b><i>L.K.G. , U.K.G.</i></b></span>
+<span style="color:maroon;font-family:'Yatra One',cursive;font-size:20px;">- 5000/-</span></a></li></p>
+<li><p class="scontent" style="color:red;font-size: 30px;">3. 
+<span style="color:yellowgreen;font-size:15px;"><b><i>1st Standard-4th Standard</i></b></span>
+<span style="color:maroon;font-family:'Yatra One',cursive;font-size:20px;">- 6000/-</span></a></li></p>
+<li><p class="scontent" style="color:red;font-size: 30px;"> 4.
+<span style="color:yellowgreen;font-size:15px;"><b><i>5th Standard-10th Standard</i></b></span>
+<span style="color:maroon;font-family:'Yatra One',cursive;font-size:20px;"> 7000/-</span></a></li></p>
+</p></ul></details></section><br>
+
+<!--footer -->
 <footer class="text-gray-600 body-font">
 <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
 <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">  
@@ -148,7 +174,7 @@
 <p class="text-sm text-blue-600 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-orange-500 sm:py-2 sm:mt-0 mt-4"><b>© 2022</b>
 <a href="https://acharya-technologies.github.io" class="text-orange-500 ml-1" rel="noopener noreferrer" target="_blank" style=""><br>@acharya-technologies</a> </p> 
 <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start"> 
-<a href="fb" target="_blank" class="text-blue-500"> 
+<a href="https://tinyurl.com/ycknezwm" target="_blank" class="text-blue-500"> 
 <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24"> 
 <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path> </svg> </a>
 <a href="https://instagram.com/omkar.kulkarni.25?igshid=YmMyMTA2M2Y=" target="_blank" class="ml-3 text-pink-400"> 
@@ -162,7 +188,6 @@
 <a class="ml-3 text-gray-500"> <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
 </svg> </a> </span> </div> </footer>
 
+
 </body>
 </html>
-
-

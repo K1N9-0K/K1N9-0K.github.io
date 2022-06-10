@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Tillana:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400&display=swap');
@@ -18,22 +20,20 @@ header{
 	margin-left:0vw;
 	width:100%;}
 .navigation{
-        padding:.3vh;
         color: RGB(200, 0, 0);
         border: 0.2vh solid maroon;
         border-radius: 5%;
         background-color: RGB(200,200,100);
-        font-size: .8vh;
-	text-align:center;
+        font-size: 1.2vh;
         font-family: 'Nova Mono', monospace;
-	width:200%;}
+	width:20%;}
 #selected{padding:0vh;
         color: brown;
         border: .3vh solid olive;
         border-radius: 20%;
         background-color: palegreen;
         font-size: 2.1vh;
-        font-family: 'Yatra One', monospace}
+        font-family: 'Poppins', monospace}
 #sections{
 	justify-content:center;
 	align-items:center;
@@ -48,7 +48,7 @@ header{
 .shead{
 	text-align:center;
 	font-size: 3vh;
-	font-family: 'Playball';
+	font-family: 'Amita';
 	color: maroon;
 	border-bottom: .5vh solid maroon;;
 	background-color: tan;}
@@ -79,21 +79,24 @@ img{
 	margin-top: 1vh;
 	font-size:1vh;
 	height:25vh;
-	width:25vh;
+	width: 25vh;
 	border:.3vh solid var(--bor);
 	border-radius: 50%;
 	color:blue;}
 .name{	
-	font-family:'Tangerine',cursive;
-	font-size: 4vh;
+	font-weight:900;
+	font-family:'Gotu',cursive;
+	font-size: 3.5vh;
 	color: red}
 .post{
-	font-family: 'Yatra One';
+	font-weight:700;
+	font-family: 'Hind';
 	color: orange;
 	font-size: 2vh;}
 .degree{
 	font-family: 'Nova Mono';
 	color:green;
+	text-decoration:overline;
 	font-size:1.8vh;}
 .description{
 	font-family: 'Playball';
@@ -127,9 +130,9 @@ footer{	background-image:linear-gradient(330deg,lime,cornsilk,tomato);
         color: cyan;
         border-bottom: .5vh solid maroon;;
         background-color: maroon;}
-.shead:hover{--s:red;font-size:3.5vh;color:cyan; font-family:'MedievalSharp'; background-color:salmon;text-transform:uppercase;font-weight:900;}
-.borders:hover{--s:red;background-color:powderblue; --desc:orangered; --imgs:dimgrey; --bor:white}
-.scontent:hover{--s:lightcyan;color:black;font-weight:700;font-family:"Gotu"}
+.shead:hover{--s:red;font-size:3.5vh;color:green; font-family:'Laila'; background-color:pink;text-transform:uppercase;font-weight:900;}
+.borders:hover{--s:red;background-color:powderblue; --desc:coral; --imgs:grey; --bor:white}
+.scontent:hover{--s:lightcyan;color:black;font-weight:700;font-family:'Poppins'}
 .no:hover{--no:red;}
 
 
@@ -138,6 +141,5 @@ footer{	background-image:linear-gradient(330deg,lime,cornsilk,tomato);
 .scroll{font-family:'Yatra One';position:center center;}
 #notice{color:tomato;font-size:2vh;font-weight:900;text-shadow:.1vh .1vh .1vh black;}
 #adm{color:green;font-size:1.5vh;font-family:'Amita';}
-
 
 #b{color:black;font-family: 'Tillana';}
