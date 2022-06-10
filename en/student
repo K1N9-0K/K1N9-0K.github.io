@@ -36,13 +36,7 @@
 	<a href="https://forms.gle/cdhkRNsp6RLND2uZ9" target="_blank"> Admission Form </a>
 	<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24"> 
 	<path d="M5 12h14M12 5l7 7-7 7">
-</path> </svg> </button> </div> </div>
-
-<form align="center">
-<input type="radio" id="b" name="en" onclick="window.location.href='./student'" checked> <b id="b"> English</b>
-<input type="radio" id="b" name="en" onclick="window.location.href='./mr/student'"><b id="b"> मराठी</b></form>
-
-</header> </p><br>
+</path> </svg> </button> </div> </div></header> </p><br>
 
 <!--scrolling bar-->
 <marquee scrollamount="10" style="background-color:white;left: 5%;position:relative;border:.1vh solid black" behaviour="scroll" direction="left" height="20vh" width="90%" onmouseover="this.stop();" onmouseout="this.start();">
@@ -91,14 +85,12 @@ project by "acharya-technologies"
 <li><details><summary>10th Standard</summary><hr>
 	<li class="mediums"><a target="_blank" href=""> Marathi Medium</a></li><hr>
         <li class="mediums"><a target="_blank" href=""> Semi Medium</a></li></details></li><hr>
+
+
 </ol></details></section><br>
 
 
-<section class="borders"><details class="shead"><summary> Exams & Results</summary><ol class="list">
-<hr>
-<li><a target="_blank" href="https://www.mscepuppss.in/">Scholarship Exam</a></li><hr>
-<li><a target="_blank" href="http://mahresult.nic.in">SSC Board Exam</a></li><hr>
-</ol></details></section><br>
+<section class="borders"><details class="shead"><summary>Guides</summary></details></section><br>
 
 </main>
 <!--footer --><br>
@@ -109,7 +101,7 @@ project by "acharya-technologies"
 <p class="text-sm text-blue-600 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-orange-500 sm:py-2 sm:mt-0 mt-4"><b>© 2022</b>
 <a href="https://acharya-technologies.github.io" class="text-orange-500 ml-1" rel="noopener noreferrer" target="_blank"><br>@acharya-technologies</a> </p> 
 <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start"> 
-<a href="https://tinyurl.com/ycknezwm" target="_blank" class="text-blue-500"> 
+<a href="fb" target="_blank" class="text-blue-500"> 
 <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24"> 
 <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path> </svg> </a>
 <a href="https://instagram.com/omkar.kulkarni.25?igshid=YmMyMTA2M2Y=" target="_blank" class="ml-3 text-pink-400"> 
